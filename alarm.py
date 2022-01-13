@@ -1,3 +1,14 @@
+'''
+Author: Anna Wang 
+Name: alarm.py
+Date: March 10 2021
+
+Description: Sniffs a specified network interface (eth0 by default) for NULL, FIN, XMAS, 
+             and Nikto scans, as well as for plaintext Username and Passwords sent via the 
+             HTML or FTP protocol. Uses Scapy for Python.
+
+'''
+
 #!/usr/bin/python3
 
 import argparse
